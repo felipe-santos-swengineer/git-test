@@ -1,0 +1,24 @@
+prompt/terminal:
+windows/linux:
+
+dir/ls - directory list
+cd/cd - change directory
+cd ../cd .. - back
+cls/clear or CRTL+L - clear screen
+(Button) Tab/ - autocomplete
+mkdir/mkdir - make directory
+echo/ - print
+echo > strings.txt - make a txt file
+del/ - delete only files in directory
+rmdir/rm -rf - remove directory
+mv file dir - move
+
+gitbash:
+openssl sha1 txt.txt - returns id of txt.txt
+echo 'conteudo' | git hash-object --stdin - returns id of 'conteudo'
+git init - initialize git
+ls -a - show if have .git
+cd .git/ - join git dir
+git add *
+git commit -m "commit_name"
+git status

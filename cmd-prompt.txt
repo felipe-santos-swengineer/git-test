@@ -19,6 +19,15 @@ echo 'conteudo' | git hash-object --stdin - returns id of 'conteudo'
 git init - initialize git
 ls -a - show if have .git
 cd .git/ - join git dir
-git add *
+git add * - add all
 git commit -m "commit_name"
 git status
+git add file - add file
+git push origin master - send to server 
+git config --list
+git config --global user.email "email"
+git remote add origin "link"
+git remote -v
+git push origin master - send to server 
+git pull origin master - solve problem in push
+git clone "link"
